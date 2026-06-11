@@ -1,0 +1,59 @@
+# .gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Build output
+dist/
+build/
+.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+temp/
+tmp/
+
+# Production
+.vercel/
+.env.production.local
+
+# Local Netlify folder
+.netlify
+
+# Cloudinary uploads
+uploads/
+
+# Database
+*.db
+*.sqlite
